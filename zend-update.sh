@@ -9,4 +9,5 @@ sleep 3
 sudo cp src/zend /usr/bin/zend
 sudo cp src/zen-cli /usr/bin/zen-cli
 sudo monit start zend
+sleep 15
 pm2 restart 0
