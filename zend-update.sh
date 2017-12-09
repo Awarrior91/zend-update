@@ -5,7 +5,7 @@ git checkout
 git pull
 ./zcutil/build.sh -j$(nproc)
 sudo monit stop zend
-sleep 3
+sleep 10
 sudo cp src/zend /usr/bin/zend
 sudo cp src/zen-cli /usr/bin/zen-cli
 sudo monit start zend
