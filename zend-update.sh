@@ -1,3 +1,4 @@
+sudo ls
 cd ~/zencash/zen
 git fetch origin
 git checkout
