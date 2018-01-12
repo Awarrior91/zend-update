@@ -1,7 +1,7 @@
 sudo ls
 cd ~/zencash/zen
 git fetch origin
-git checkout
+git checkout master
 git pull
 ./zcutil/build.sh -j$(nproc)
 sudo monit stop zend
